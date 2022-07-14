@@ -31,3 +31,10 @@ body:
     description: "Add2 any other context or screenshots about the feature request here."
   validations:
     required: true
+- type: checkboxes
+  attributes:
+    label: Plz choose Programming Language what you want to use Euphony
+    description:
+    options:
+      - label:
+        required: false
