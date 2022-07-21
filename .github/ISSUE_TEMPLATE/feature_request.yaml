@@ -5,14 +5,14 @@ labels: "feature"
 
 body:
   - type: checkboxes
-     attributes:
-       label: Choice Programming Language
-       description: Plz choose Programming Language what you want to use Euphony
-       options:
-         - label: C++
-         - label: JAVA
-         - label: javaScript
-         - label: Kotlin
+    attributes:
+      label: Choice Programming Language
+      description: Plz choose Programming Language what you want to use Euphony
+      options:
+        - label: C++
+        - label: JAVA
+        - label: javaScript
+        - label: Kotlin
   - type: markdown
     attributes:
       value: Is your feature request related to a problem? Please describe.
