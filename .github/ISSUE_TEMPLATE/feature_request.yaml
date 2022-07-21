@@ -4,6 +4,9 @@ title: "[Feature] <title>"
 labels: "feature"
 
 body:
+  - type: markdown
+    attributes:
+      value: Is your feature request related to a problem? Please describe.
   - type: checkboxes
     attributes:
       label: Choice Programming Language
@@ -13,9 +16,7 @@ body:
         - label: JAVA
         - label: javaScript
         - label: Kotlin
-  - type: markdown
-    attributes:
-      value: Is your feature request related to a problem? Please describe.
+        - label: Other
   - type: textarea
     attributes:
       label: Describe the feature you'd like to request
