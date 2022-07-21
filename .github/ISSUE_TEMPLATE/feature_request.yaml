@@ -7,6 +7,16 @@ body:
   - type: markdown
     attributes:
       value: Is your feature request related to a problem? Please describe.
+  - type: checkboxes
+    attributes:
+      label: Choice Programming Language
+      description: Plz choose Programming Language what you want to use Euphony
+      options:
+        - label: C++
+        - label: JAVA
+        - label: javaScript
+        - label: Kotlin
+        - label: Other
   - type: textarea
     attributes:
       label: Describe the feature you'd like to request
@@ -39,12 +49,4 @@ body:
         context, screenshots, related links , etc.
     validations:
       required: true
-  - type: checkboxes
-    attributes:
-      label: Choice Programming Language
-      description: Plz choose Programming Language what you want to use Euphony
-      options:
-        - label: C++
-        - label: JAVA
-        - label: javaScript
-        - label: Kotlin
+ 
